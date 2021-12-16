@@ -1,6 +1,6 @@
-const UPDATE_TIMER = 'UPDATE_TIMER'
+const UPDATE_TIMER_SAGA = 'UPDATE_TIMER_SAGA'
 
 export const updateTimer = (payload) => ({
-    type: UPDATE_TIMER,
+    type: UPDATE_TIMER_SAGA,
     payload
 })
