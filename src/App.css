@@ -44,8 +44,16 @@
   border: 1px solid #282c34;
 }
 
-.btn:hover{
+.btn:hover:enabled{
   cursor: pointer;
   background-color: #282c34;
   color:rgb(192, 192, 189)
+}
+
+.btn:disabled{
+  background-color: rgb(192, 192, 189);
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid #282c34;
 }
