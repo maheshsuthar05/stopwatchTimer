@@ -1,8 +1,8 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 
 const Time = (props) => {
 
-    return ( <div className='time-container'>
+    return ( <div className='timer-container'>
         <span>{(props.time.h < 10) ? '0'+props.time.h : props.time.h} : </span>
         <span>{(props.time.m < 10) ? '0'+props.time.m : props.time.m} : </span>
         <span>{(props.time.s < 10) ? '0'+props.time.s : props.time.s} : </span>
